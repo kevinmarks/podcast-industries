@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+.idea/
+.idea/libraries/
+.idea/libraries/Google_App_Engine_SDK.xml
+*.swp
+node_modules/
+
+#oauth-dropins
+disqus_client_id
+disqus_client_secret
+dropbox_app_key
+dropbox_app_secret
+facebook_app_id
+facebook_app_secret
+facebook_app_id_local
+facebook_app_secret_local
+flickr_app_key
+flickr_app_secret
+google_client_id
+google_client_secret
+instagram_client_id
+instagram_client_secret
+instagram_client_id_local
+instagram_client_secret_local
+twitter_app_key
+twitter_app_secret
+tumblr_app_key
+tumblr_app_secret
+wordpress_client_id
+wordpress_client_secret
+wordpress_client_id_local
+wordpress_client_secret_local
