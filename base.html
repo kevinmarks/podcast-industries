@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <head>
+    <title>{% block title %}{% endblock %} - Podcast Industries</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/static/style.css" />
+    <script src="/static/fragmention.js"></script>
+    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+    <link rel="shortcut icon" href="static/images/logo.png" />
+    <link rel="apple-touch-icon" href="static/images/logo.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+  </head>
+  <body>
+  <header class="h-card"><img class="u-logo u-photo" src="static/images/logo.svg" /><h1 class="p-name p-org">Podcast Industries</h1>
+  <span class="p-summary">Podcast consulting, editing and music services</span>
+  </header>
+  <nav><ul>
+  <li><a href="/front">Podcast Industries</a>
+  <li><a href="/andrew">Andrew Marks</a>
+  </ul>
+  </nav>
+  <section class="main">{% block content %}
+
+{% endblock %}</section>
+
+  <footer class="h-card">
+  </footer>
+  </body>
+</html>
+{% endautoescape %}
